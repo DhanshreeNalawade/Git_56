@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="width: 20vw; margin: 3vh 40vw;">
+    <h2>Registration Form</h2>
+    <form action="#" method="get" target="_blank">
+         <label for="username">Username: </label>
+         <input type="text" placeholder="Enter your Username"> <br><br>
+         <label for="Password">Password: </label>
+         <input type="text" placeholder="Enter your Password"> <br><br>
+         <label for="Eamil">Eamil: </label>
+         <input type="email" placeholder="sample@gmail.com"> <br><br>
+
+        <label for="Birth Date">Birth Date: </label>
+        <input type="date"><br><br>
+
+        <label>Courses: </label>
+            <br>
+            <select name="Courses">
+            <option value="FSD">Full Stack Developer</option>
+            <option value="DSA">Data Software Engineering</option>
+            <option value="DA">Data Analytics</option>
+
+            </select><br><br>
+
+        <lable>Select your Fav Sport: </lable>
+            <br>
+            <input list="Sports" name="Sport">
+            <datalist id="Sports">
+                <option value="Cricket"></option>
+                <option value="Chess"></option>
+                <option value="Hockey"></option>
+                <option value="Badminton"></option>
+                <option value="Volleyball"></option>
+                <option value="Baseball"></option>
+                <option value="Football"></option>
+
+            </datalist><br><br>
+
+
+        Education: <br>
+        <input type="checkbox">
+        <label for="Masters">Masters: </label><br>
+        <input type="checkbox">
+        <label for="Bachlors">Bachlors: </label><br>
+        <input type="checkbox">
+        <label for="HSC">HSC: </label><br>
+        <input type="checkbox">
+        <label for="SSC">SSC: </label><br><br>
+
+        Gender: <br>
+        <input type="radio" name="Gender" id="Male">
+        <label for="Male">Male: </label><br>
+        <input type="radio" name="Gender" id="Female">
+        <label for="Female">Female: </label><br>
+        <input type="radio" name="Gender" id="Others">
+        <label for="others">others: </label><br><br>
+
+        <label>Address: </label>
+        <br>
+        <textarea name="Address" cols="30" rows="5" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+
+        
+    </form>
+    
+</body>
+</html>

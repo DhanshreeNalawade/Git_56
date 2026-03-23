@@ -1,0 +1,33 @@
+     
+
+     body {
+        background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/green-natural-background-with-wooden-surface-free-image.jpeg?w=2210&quality=70');
+        background-position: center;
+        background-size: cover;
+        background-repeat:  no-repeat;
+    }
+    
+    h1{
+        text-align: center;
+        color: aliceblue;
+        margin-top: 30vh;
+    }
+
+@media screen and (max-height:600px) {
+
+    body {
+        background-image: url('https://thumbs.dreamstime.com/b/incredibly-beautiful-sunset-sun-lake-sunrise-landscape-panorama-nature-sky-amazing-colorful-clouds-fantasy-design-115177001.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat:  no-repeat;
+    }
+    h1{
+        text-align: center;
+        color: red;
+        margin-top: 30vh;
+    }
+}
+
+/* //media screen and (min-aspect-ratio:9/96){ */
+    
+/* @media screen and (max-height:580px) and (min-height:460px){ */

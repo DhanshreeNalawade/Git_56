@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Video webpage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+
+        }
+
+        /* Background video */
+        video{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            filter: blur(5px);
+        }
+
+        .content {
+            position: fixed;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            top: 40%;
+            font-size: 30px;
+            font-family: Arial;
+        }
+
+        #navbar{
+             background-color: black;
+             text-align: center;
+        }
+        
+        #a{
+            color: white;
+            margin-right:20px;
+            text-align: center;
+            
+        }
+
+        footer {
+            position: fixed;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            bottom: 0;
+            width: 100%;
+
+
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Background Video -->
+    <video src="../video1.mp4" controls autoplay loop></video>
+    
+     <nav id="navbar">
+        <a href="#" id="a">Home</a>
+        <a href="#" id="a">File</a>
+        <a href="#" id="a">View</a>
+        <a href="#" id="a">Contact</a>
+        <a href="#" id="a">Help</a>
+
+     </nav>
+     
+     <!-- Page content -->
+    <div class="content">
+        <h3>Welcome to the My video Webpage</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam impedit temporibus explicabo rerum? Neque vero veritatis eum, ipsum perspiciatis natus officiis cupiditate aut nisi nihil quae deserunt, minus quasi distinctio.</p>
+    </div>
+
+    <!-- footer -->
+     <footer>
+        <p>2026 My video Webpage | All Rights Reserved</p>
+        <p><a href="#">privacy policy</a> | <a href="#">Terms</a></p>
+     </footer>
+    
+</body>
+</html>

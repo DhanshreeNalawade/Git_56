@@ -1,0 +1,30 @@
+body{
+    background-color: ;
+    background-repeat: ;
+    background-size: ;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid;
+    text-shadow: 5px 5px 8px purple;
+    box-shadow: 2px 2px 8px 5px black;
+    border-radius:50px;
+    background-color: lightseagreen;
+
+}
+
+.box{
+    width:150px;
+    height:150px;
+    border:2px solid palegreen;
+    background-color: lightblue;
+    /* position: relative;
+    top:30%;
+    left:10%; */
+    position:absolute;
+    top:30%;
+    right:10%;
+}
+

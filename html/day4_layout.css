@@ -1,0 +1,38 @@
+.parent{
+    width: 80vw;
+    height: 90vh;
+    border: 2px solid red;
+    margin: 4vh 10vw;
+    display: grid;
+    grid-template-columns: repeat(4,17,5vw);
+    grid-template-rows: ; repeat(3,26,5vh);
+    gap: 2vh 2vw;
+    padding: 2vh 2vw;
+
+
+}
+
+.child{
+    border: 2px solid rgb(44, 53, 31)
+}
+
+#one{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: palevioletred;
+}
+
+#two{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: aqua;
+
+}
+
+#six{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: paleturquoise;
+}

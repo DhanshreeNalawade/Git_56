@@ -1,0 +1,30 @@
+     body {
+        background-image: url('https://tse2.mm.bing.net/th/id/OIP.G37tgeQqSNt7v2oPfj9ltQHaE7?pid=Api&P=0&h=180');
+        background-position: center;
+        background-size: cover;
+        background-repeat:  no-repeat;
+    }
+    
+    h1{
+        text-align: center;
+        color: aliceblue;
+        margin-top: 30vh;
+    }
+
+@media screen and (max-width:599px) and (min-width:450px){
+    body {
+        background-image: url('https://tse1.mm.bing.net/th/id/OIP.z3Fu3ASxNzvApO4stF3CTQHaEO?pid=Api&P=0&h=180');
+        background-position: center;
+        background-size: cover;
+        background-repeat:  no-repeat;
+    }
+    h1{
+        text-align: center;
+        color: red;
+        margin-top: 30vh;
+    }
+}
+
+//media screen and (min-aspect-ratio:9/96){
+    
+}
